@@ -1,0 +1,75 @@
+.calculator {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+
+
+.display {
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    padding: 12px 8px;
+    font-size: 20px;
+}
+.calculation {
+    text-align: right;
+    height: 20px;
+    line-height: 15px;
+    padding: 12px 8px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button {
+    border: none;
+    background-color: #eee;
+    border: 1px solid #333;
+    color: #333;
+    font-size: 24px;
+    padding: 16px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    text-align: center;
+}
+.equal {
+    border: none;
+    background-color: #eee;
+    border: 1px solid #333;
+    color: #333;
+    font-size: 24px;
+    padding: 16px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    text-align: center;
+}
+#equal {
+    background-color: rgb(76, 194, 164);
+    color: white;
+    font-weight: bold;
+}
+
+#equal:hover {
+    background-color: #111210;
+    transition: 0.5s ease-in-out;
+}
+
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
